@@ -1,0 +1,16 @@
+<component name="org.nuxeo.template.rendering.contrib.auditentriesfn">
+
+  <extension target="org.nuxeo.template.service.TemplateProcessorComponent" point="contextExtension">
+
+    <documentation>Adds extended audit features in the context
+      <ul>
+        <li>auditentriesfn.last(5)</li>
+      </ul>
+    </documentation>
+
+    <contextFactory name="auditentriesfn" class="org.nuxeo.template.context.extensions.AuditEntriesFunctionsExtensionFactory">
+    </contextFactory>
+
+  </extension>
+
+</component>
