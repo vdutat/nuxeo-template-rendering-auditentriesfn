@@ -9,7 +9,7 @@
   </parent>
   <groupId>org.nuxeo.template</groupId>
   <artifactId>nuxeo-template-rendering-auditentriesfn</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>nuxeo-template-rendering-auditentriesfn</name>
   <description/>
   <dependencies>
